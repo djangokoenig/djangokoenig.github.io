@@ -1,1 +1,55 @@
-hello world
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href=style.css>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Faustina|Mate+SC|Notable&display=swap" rel="stylesheet">
+</head>
+<body class="parent-portfolio">
+
+<!-- Simulate a smartphone / tablet -->
+<aside class="site-sidebar">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <div id="avatarPhoto">
+   <img src="Portfolio Media/Photo by Alex 1 Edit Django copy.png">
+  </div>
+  <a href="#home" class="active">Django Koenig</a>
+  <div class="socialIcons"></div>
+  <img id="#linkedIn" src="Portfolio Media/linkedin.svg"></img>
+  <img>
+  <div id="navLinks">
+  <a href="#portfolio">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="#resume">My Resume</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+  <h3 id="portfolio">Portfolio</h3>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse ipsam deleniti voluptatem debitis. Suscipit aperiam reiciendis eaque consequuntur est ex dolores commodi. Ipsum, perspiciatis. Quidem tempora iure aliquid commodi!</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam nobis velit quisquam doloribus impedit earum veniam, quod reprehenderit suscipit voluptates omnis, dolores consequuntur, laudantium voluptate pariatur nisi sint corporis ullam.</p>
+</div>
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+
+</html>
